@@ -1,0 +1,38 @@
+.rp-wrap th[scope=row]{
+    display: none;
+}
+.el-wraper{
+    display: flex;
+    flex-direction: column;
+}
+.el-wraper input:not(input[type=radio]) ,.el-wraper select {
+    width: 200px;
+    margin: 15px;
+    height: 40px;
+    border: none;
+    /* transition: cubic-bezier(0.175, 0.885, 0.32, 1.275); */
+
+    
+}
+.el-wraper input:focus{
+    background-color: rgb(218, 187, 247);
+}
+.el-wraper label{
+
+    font-weight: bold;
+}
+.el-wraper input[type=radio] + label{
+    cursor: pointer ;
+    
+    padding: 20px;
+    
+}
+.el-wraper .show  label{
+    display: block;
+    margin: 10px;
+    font-weight: normal;
+}
+.el-wraper div.show {
+
+    font-weight: bold;  
+}
